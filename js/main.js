@@ -1,6 +1,7 @@
 //refresh to top
 window.onbeforeunload = () => {  
-    window.scrollTo(0, 0);  
+    document.body.scrollTo(0,0);  
+    document.documentElement.scrollTo(0,0);
   };
 
 
