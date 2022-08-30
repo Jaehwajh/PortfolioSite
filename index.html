@@ -18,12 +18,12 @@
 
     <div class="navigation">
         <header>
-            <nav>
+            <nav class="navbar">
                 <ul>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#contactSection">Contact</a></li>
+                    <li><a href="#resumeSection">Resume</a></li>
+                    <li><a href="#portfolioSection">Portfolio</a></li>
+                    <li><a href="#aboutSection">About</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,13 +32,13 @@
     <!-- Main homepage/section (about section) -->
     <div class="main">
         <main>
-            <h1>James Hwang</h1>
+            <h1 class="fade" id="fadeInMain">James Hwang</h1>
 
-            <h3>Full-Stack Software Engineer || IT Tech</h3>
+            <h3 class="fadeSpan" id="fadeInSpan">Full-Stack Software Engineer || IT Tech</h3>
         </main>
     </div>
 
-    <div class="about">
+    <div class="about" id="aboutSection">
         <section class="me">
             <h1>ABOUT</h1>
 
@@ -62,7 +62,7 @@
     </div>
 
     <!-- Portfolio section (showcase work from clients and projects) -->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolioSection">
         <section>
             <h1>PORTFOLIO</h1>
 
@@ -74,16 +74,16 @@
     </div>
 
     <!-- Resume section/ resume site -->
-    <div class="resume">
+    <div class="resume" id="resumeSection">
         <section>
             <h1>RESUME</h1>
 
-            <p>For more information check <a href="#">here</a></p>
+            <p>For more information click <a href="#">here</a></p>
         </section>
     </div>
 
     <!-- contact page/ contact me -->
-    <div class="contact">
+    <div class="contact" id="contactSection">
         <section>
             <h1>Contact Me</h1>
 
@@ -124,23 +124,25 @@
     </div>
 
     <!-- bottom page, resources, social media, etc... -->
-    <div class='socials'>
+    <div class="socials">
         <section>
             <h2>Follow me on my socials</h2>
 
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-angellist"></i></a>
-            <a href="#"><i class="fa-solid fa-file-user"></i></a>
+            <a href="https://twitter.com/JaehwaJh"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/hwangjames/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Jaehwajh"><i class="fa-brands fa-github"></i></a>
+            <a href="https://angel.co/u/james-hwang-14"><i class="fa-brands fa-angellist"></i></a>
+            <a href="#"><i class="fa-solid fa-file"></i></a>
         </section>
     </div>
 
-    <div>
+    <div class="copyright">
         <footer>
-
+            <p>Copyright &copy; James Hwang 2022  || Designed by: James Hwang</p> 
         </footer>
     </div>
+
+    <button class="toTopBtn" id="toTop"><i class="fa-solid fa-angles-up"></i></button>
     
     <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/f652196d03.js" crossorigin="anonymous"></script>
