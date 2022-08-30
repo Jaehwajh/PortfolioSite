@@ -54,7 +54,7 @@ nav > ul > li > a:hover{
 .main{
     text-align: center;
     background-color: rgb(36, 36, 36);
-    height: 700px;
+    height: 900px;
     color: white;
 }
 
@@ -62,11 +62,365 @@ main > h1{
     font-weight: 300;
     font-size: 6rem;
     margin: 0;
-    padding-top: 13%;
+    padding-top: 19%;
 }
 
 main > h3{
     font-size: 2.5rem;
     font-weight: 300;
+}
+
+
+/* About Section */
+
+.about{
+    text-align: center;
+    background-color: whitesmoke;
+    height: 900px;
+    color: rgb(67, 67, 161);
+}
+
+.me > h1{
+    font-size: 6rem;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+}
+
+.me > p{
+    padding-top: 3%;
+    font-size: 2rem;
+}
+
+.me > p:last-child{
+    padding: 0;
+}
+
+
+/* images */
+
+#picture{
+    margin-top: 2.5%;
+    width: 15%;
+    border-radius: 50%;
+}
+
+/* Portfolio Section */
+
+.portfolio{
+    height: 800px;
+    background-color:rgb(53, 55, 70);
+    text-align: center;
+    color: whitesmoke;
+}
+
+.portfolio >section> h1{
+    font-size: 6rem;
+    margin: 0;
+    padding-top: 5%;
+}
+
+
+.portfolio > section > p{
+    font-size: 2rem;
+}
+
+.portfolio > section > p > a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio > section > p > a:hover{
+    color: rgb(36, 36, 36);
+    transition: ease-in .12s;
+}
+
+/* Resume Section */
+
+.resume{
+    height: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+    color:rgb(67, 67, 161);
+}
+
+.resume > section > h1 {
+    font-size: 6rem;
+    margin: 0;
+    padding: 5%;
+}
+
+.resume > section > p{
+    font-size: 2rem;
+}
+
+.resume > section > p > a{
+    font-size: 2rem;
+    text-decoration: none;
+    color:rgb(67, 67, 161);
+}
+
+.resume > section > p > a:hover{
+    color: rgb(36, 36, 36);
+    transition: ease-in .12s;
+}
+
+/* contact me */
+
+.contact{
+    height: 800px;
+    text-align: center;
+    background-color:rgb(67, 67, 161) ;
+    color: whitesmoke;
+}
+
+.contact > section > h1{
+    font-size: 6rem;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.contact > section > p{
+    font-size: 2rem;
+}
+
+form{
+    font-size: 4rem;
+    height: 400px;
+    padding: 5% 25%;
+    color: #212529;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0.125rem solid #ced4da;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border-radius: 0.5rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control[type=file] {
+    overflow: hidden;
+  }
+  .form-control[type=file]:not(:disabled):not([readonly]) {
+    cursor: pointer;
+  }
+  .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #8ddece;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
+  }
+  .form-control::-webkit-date-and-time-value {
+    height: 1.5em;
+  }
+  .form-control::-moz-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  .form-control::placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  .form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+  }
+  .form-control::-webkit-file-upload-button {
+    padding: 0.375rem 0.75rem;
+    margin: -0.375rem -0.75rem;
+    -webkit-margin-end: 0.75rem;
+            margin-inline-end: 0.75rem;
+    color: #212529;
+    background-color: #e9ecef;
+    pointer-events: none;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    border-inline-end-width: 0.125rem;
+    border-radius: 0;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .form-control::file-selector-button {
+    padding: 0.375rem 0.75rem;
+    margin: -0.375rem -0.75rem;
+    -webkit-margin-end: 0.75rem;
+            margin-inline-end: 0.75rem;
+    color: #212529;
+    background-color: #e9ecef;
+    pointer-events: none;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    border-inline-end-width: 0.125rem;
+    border-radius: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .form-control::-webkit-file-upload-button {
+      -webkit-transition: none;
+      transition: none;
+    }
+    .form-control::file-selector-button {
+      transition: none;
+    }
+  }
+  .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+    background-color: #dde0e3;
+  }
+  .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
+    background-color: #dde0e3;
+  }
+  .form-control::-webkit-file-upload-button {
+    padding: 0.375rem 0.75rem;
+    margin: -0.375rem -0.75rem;
+    -webkit-margin-end: 0.75rem;
+            margin-inline-end: 0.75rem;
+    color: #212529;
+    background-color: #e9ecef;
+    pointer-events: none;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    border-inline-end-width: 0.125rem;
+    border-radius: 0;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .form-control::-webkit-file-upload-button {
+      -webkit-transition: none;
+      transition: none;
+    }
+  }
+  .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+    background-color: #dde0e3;
+  }
+
+  .form-floating {
+    position: relative;
+  }
+  .form-floating > .form-control,
+  .form-floating > .form-select {
+    height: 5.5rem;
+    line-height: 1.25;
+  }
+  .form-floating > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1.5rem 0;
+    pointer-events: none;
+    border: 0.125rem solid transparent;
+    transform-origin: 0 0;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .form-floating > label {
+      transition: none;
+    }
+  }
+  .form-floating > .form-control {
+    padding: 1.5rem 0;
+  }
+  .form-floating > .form-control::-moz-placeholder {
+    color: transparent;
+  }
+  .form-floating > .form-control:-ms-input-placeholder {
+    color: transparent;
+  }
+  .form-floating > .form-control::placeholder {
+    color: transparent;
+  }
+  .form-floating > .form-control:not(:-moz-placeholder-shown) {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .form-floating > .form-control:not(:-ms-input-placeholder) {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown) {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .form-floating > .form-control:-webkit-autofill {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .form-floating > .form-select {
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {
+    opacity: 0.65;
+    transform: scale(0.65) translateY(-0.5rem) translateX(0rem);
+  }
+  .form-floating > .form-control:not(:-ms-input-placeholder) ~ label {
+    opacity: 0.65;
+    transform: scale(0.65) translateY(-0.5rem) translateX(0rem);
+  }
+  .form-floating > .form-control:focus ~ label,
+  .form-floating > .form-control:not(:placeholder-shown) ~ label,
+  .form-floating > .form-select ~ label {
+    opacity: 0.65;
+    transform: scale(0.65) translateY(-0.5rem) translateX(0rem);
+  }
+  .form-floating > .form-control:-webkit-autofill ~ label {
+    opacity: 0.65;
+    transform: scale(0.65) translateY(-0.5rem) translateX(0rem);
+  }
+
+  .mb-3 {
+    margin-bottom: 1rem !important;
+  }
+
+  label {
+    display: inline-block;
+  }
+
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+
+  .form-floating label {
+    font-size: 1.5rem;
+    color: #6c757d;
+  }
+
+
+/* button */
+
+.btn{
+    border: 1px none rgb(36, 36, 36) ;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color:rgb(36, 36, 36) ;
+    padding: 10px 20px;
+    margin-top: 2%;
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: #212529;
+    cursor: pointer;
 }
 

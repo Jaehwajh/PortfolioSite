@@ -38,35 +38,111 @@
         </main>
     </div>
 
+    <div class="about">
+        <section class="me">
+            <h1>ABOUT</h1>
+
+            <img id="picture" src="Assets/images/1652233099406.jfif" alt="James Hwang Profile Picture">
+
+            <p>Just an ordinary person who writes code daily and engrosses himself in tech. </p>
+
+
+            <p>
+                My name is James Hwang and I am a full-stack software engineer and IT personal. 
+                
+                <br>
+                
+                I've always been fascinated with technology and what it can bring to the table. 
+
+                <br>
+
+                Growing up with technology and seeing it evolve over the years is what drives me to pursue my tech career.
+            </p>
+        </section>
+    </div>
+
     <!-- Portfolio section (showcase work from clients and projects) -->
     <div class="portfolio">
         <section>
+            <h1>PORTFOLIO</h1>
 
+
+
+
+            <p>You can check my <a href="#">Github</a> for more projects and client work.</p>
         </section>
     </div>
 
     <!-- Resume section/ resume site -->
     <div class="resume">
         <section>
+            <h1>RESUME</h1>
 
+            <p>For more information check <a href="#">here</a></p>
         </section>
     </div>
 
     <!-- contact page/ contact me -->
     <div class="contact">
         <section>
+            <h1>Contact Me</h1>
+
+            <p>Send me a message and I'll get back to you as soon as possible.</p>
+
+            <form id="contactForm">
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                    <label for="name">Full name</label>
+                    <!-- <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div> -->
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                    <label for="email">Email address</label>
+                    <!-- <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div> -->
+                    <!-- <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div> -->
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                    <label for="phone">Phone number</label>
+                    <!-- <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div> -->
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                    <label for="message">Message</label>
+                    <!-- <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div> -->
+                </div>
+
+                <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+            </form>
+
+
 
         </section>
     </div>
 
     <!-- bottom page, resources, social media, etc... -->
-    <div class="footer">
+    <div class='socials'>
+        <section>
+            <h2>Follow me on my socials</h2>
+
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-angellist"></i></a>
+            <a href="#"><i class="fa-solid fa-file-user"></i></a>
+        </section>
+    </div>
+
+    <div>
         <footer>
 
         </footer>
     </div>
     
     <script src="js/main.js"></script>
-   
+    <script src="https://kit.fontawesome.com/f652196d03.js" crossorigin="anonymous"></script>
 </body>
 </html>
