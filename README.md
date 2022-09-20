@@ -4,19 +4,19 @@ HTML5, CSS, Sass, Javascript - Portfolio site contains links to my current proje
 
 **Link to Site:** https://hwangjames.netlify.app/
 
-##Technology Used
+## Technology Used
 
 
 
 HTML5, CSS, Sass, Javascript
 
-##Optimizations
+## Optimizations
 
 
 
 !Important: Mobile support
 
-##Reflection
+## Reflection
 
 
 
