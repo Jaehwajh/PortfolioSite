@@ -1,6 +1,6 @@
 ## PortfolioSite V2
 
-HTML5, CSS, Sass, Javascript - Portfolio site contains links to my current projects and ways to get in contact with me.
+HTML5, CSS, Javascript - Portfolio site contains links to my current projects and ways to get in contact with me.
 
 **Link to Site:** https://hwangjames.netlify.app/
 
@@ -8,7 +8,7 @@ HTML5, CSS, Sass, Javascript - Portfolio site contains links to my current proje
 
 
 
-HTML5, CSS, Sass, Javascript
+HTML5, CSS, Javascript
 
 ## Optimizations
 
